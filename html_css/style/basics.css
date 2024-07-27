@@ -26,11 +26,23 @@
   font-weight: bold;
   border-style: none;
   border-radius: 20px;
+  transition: opacity 1s;
   cursor: pointer;
+}
+
+.amazon:hover {
+  background: rgba(255,
+      216,
+      20, 0.8);
+  color: black;
 }
 
 .amazon-buy-now {
   background-color: rgb(255, 164, 28);
+}
+
+.amazon-buy-now:hover {
+  background-color: rgb(255, 164, 28, 0.8);
 }
 
 
@@ -46,6 +58,11 @@
   border-style: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.github:hover {
+  box-shadow: 5px 5px 5px rgba(46, 164, 79, 0.2);
 }
 
 .bootstrap {
@@ -98,6 +115,13 @@
   border: 1px solid rgb(10, 102, 194);
   border-radius: 20px;
   cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+
+}
+
+.linkedin-save:hover {
+  background-color: rgb(10, 102, 194);
+  color: white;
 }
 
 .amazon-2 {
