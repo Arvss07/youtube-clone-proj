@@ -1,0 +1,94 @@
+.buttons-one {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.uber {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  margin: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.amazon {
+  background: rgb(255, 216, 20);
+  color: black;
+  padding: 10px 50px;
+  margin: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.github {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bootstrap {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bootstrap-dl {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 20px 10px;
+  border: 1px solid rgb(108, 117, 125);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.linkedin {
+  background: rgb(10, 102, 194);
+  color: white;
+  padding: 10px 50px;
+  margin: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.linkedin-save {
+  background: white;
+  color: rgb(10, 102, 194);
+  padding: 10px 50px;
+  margin: 20px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid rgb(10, 102, 194);
+  border-radius: 20px;
+  cursor: pointer;
+}
