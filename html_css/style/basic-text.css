@@ -1,0 +1,84 @@
+h1,
+h3,
+p,
+button {
+  font-family: Verdana;
+  margin: 0;
+}
+
+h3 {
+  font-weight: normal;
+  color: rgb(114, 113, 113);
+  margin-top: 3px;
+}
+
+p {
+  margin-top: 10px;
+  width: 35%;
+  margin-bottom: 15px;
+}
+
+.get-started {
+  background-color: rgb(66, 168, 63);
+  color: white;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.get-started:hover {
+  background-color: rgba(56, 138, 53, 0.7);
+}
+
+.header-title,
+.apple-subhead {
+  font-family: Arial;
+}
+
+.apple-subhead {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+  margin-top: 15px;
+}
+
+div {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.apple-macbook {
+  margin-top: 5px;
+  font-family: Arial;
+  font-size: 28px;
+}
+
+.apple-main {
+  margin-top: 5px;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.apple-buy {
+  margin-top: 15px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.apple-buy:hover {
+  background-color: rgba(0, 112, 215, 0.7);
+}
