@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+
+  <style>
+    .output {
+      color: red;
+      text-emphasis: bold;
+    }
+
+    .output2 {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Document Object Model Sample</h1>
+  <button onclick="displayOutput('output', 'hehehehe')">Click Me!</button>
+  <button onclick="displayOutput('output2', 'hahaha')">Click Me Again!</button>
+  <p class="output"></p>
+  <p class="output2"></p>
+
+  <script>
+    function displayOutput(className, message) {
+      document.querySelector(`.${className}`).innerHTML = message;
+    }
+
+  </script>
+</body>
+
+</html>
