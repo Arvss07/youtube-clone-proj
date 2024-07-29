@@ -11,19 +11,14 @@
 }
 
 .left-panel {
-  background-color: #f17b7b;
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
 .center-panel {
-  background-color: #f1f17b;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex: 1;
   align-items: center;
+  flex: 1;
   max-width: 500px;
   margin-left: 70px;
   margin-right: 30px;
@@ -31,7 +26,15 @@
 
 .right-panel {
   background-color: #7bf17b;
-  width: 250px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.header-panel-icons {
+  height: 30px;
+  object-fit: cover;
 }
 
 /* LEFT PANEL CSS*/
@@ -45,13 +48,52 @@
 }
 
 /* CENTER PANEL CSS*/
-.center-search-input {
-  padding: 5px;
-  width: 100%;
+.search-input {
+  display: flex;
+  flex: 1;
+  height: 40px;
+  border: 1px solid rgb(192, 192, 192);
+  padding-left: 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
+.search-input::placeholder {
+  font-family: Roboto, Arial;
+}
 
-.header-panel-icons {
-  height: 27px;
+.search-button {
+  height: 42px;
+  width: 67px;
+  margin-top: -1px;
+  margin-left: -2px;
+  border: 1px solid rgb(192, 192, 192);
+  background-color: rgb(240, 240, 240);
+  border-radius: 2px;
+}
+
+.voice-search-button {
+  background-color: rgb(245, 245, 245);
+  margin-top: -1px;
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.voice-search-icon {
+  width: 30px;
+  height: 30px;
   object-fit: cover;
+}
+
+/* RIGHT PANEL CSS*/
+.upload-icon,
+.yt-apps-icon,
+.notification-icon {
+  height: 30px;
+  object-fit: cover;
+  margin-right: 20px;
 }
