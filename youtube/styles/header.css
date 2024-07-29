@@ -1,13 +1,8 @@
 .header-div {
-  height: 55px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-
-.header-div {
-  background-color: #a3a1a1;
 }
 
 .left-panel {
@@ -20,16 +15,15 @@
   align-items: center;
   flex: 1;
   max-width: 500px;
-  margin-left: 70px;
+  margin-left: 30px;
   margin-right: 30px;
 }
 
 .right-panel {
-  background-color: #7bf17b;
   display: flex;
   align-items: center;
-
-
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .header-panel-icons {
@@ -63,6 +57,12 @@
   font-family: Roboto, Arial;
 }
 
+.search-input:focus {
+  outline: 1px;
+  border-color: rgb(82, 177, 255);
+}
+
+
 .search-button {
   height: 42px;
   width: 67px;
@@ -71,6 +71,15 @@
   border: 1px solid rgb(192, 192, 192);
   background-color: rgb(240, 240, 240);
   border-radius: 2px;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-button:hover {
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.voice-search-button:hover {
+  border: 1px solid rgb(122, 122, 122);
 }
 
 .voice-search-button {
@@ -81,6 +90,7 @@
   height: 40px;
   border: none;
   border-radius: 20px;
+  transition: box-shadow 0.3s ease;
 }
 
 .voice-search-icon {
@@ -95,5 +105,18 @@
 .notification-icon {
   height: 30px;
   object-fit: cover;
-  margin-right: 20px;
+}
+
+.upload-button,
+.yt-apps-button,
+.notification-button {
+  margin: 0 20px;
+}
+
+.upload-button,
+.yt-apps-button,
+.notification-button,
+.header-pphoto {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
 }
