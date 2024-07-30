@@ -2,6 +2,8 @@ body {
   font-family: Roboto, Arial;
   margin: 0;
   padding-top: 80px;
+  padding-left: 80px;
+  background-color: rgb(255, 255, 255);
 }
 
 p {
@@ -20,6 +22,11 @@ button {
 }
 
 input {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
   margin: 0;
   padding: 0;
 }
