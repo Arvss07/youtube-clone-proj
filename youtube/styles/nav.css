@@ -7,7 +7,8 @@
   bottom: 0;
   width: 80px;
   background-color: white;
-  padding-top: 20px;
+  padding: 100px 0;
+  justify-content: space-between;
 }
 
 .nav-icons {
@@ -19,7 +20,7 @@
 
 .nav-text {
   margin: 0;
-  font-size: 12px;
+  font-size: 11px;
   font-family: Roboto, Arial, sans-serif;
   text-align: center;
   color: #333;
@@ -64,6 +65,6 @@
   }
 
   .nav-text {
-    font-size: 10px;
+    font-size: 9px;
   }
 }

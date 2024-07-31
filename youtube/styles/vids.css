@@ -80,3 +80,41 @@
 .ytt-creator {
   margin: 15px 0 5px 0px;
 }
+
+@media (max-width: 768px) {
+  .preview-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .ytt-main-container {
+    width: 300px;
+  }
+
+  .thumbnail-photo {
+    height: 200px;
+  }
+
+  .ytt-title {
+    font-size: 18px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .preview-container {
+    grid-template-columns: 1fr;
+  }
+
+  .ytt-main-container {
+    width: 100%;
+  }
+
+  .thumbnail-photo {
+    height: 150px;
+  }
+
+  .ytt-title {
+    font-size: 16px;
+    width: 100%;
+  }
+}
