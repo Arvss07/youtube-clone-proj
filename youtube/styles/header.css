@@ -129,3 +129,21 @@
   border: none;
   background-color: rgba(255, 255, 255, 0);
 }
+
+.notification-container {
+  position: relative;
+}
+
+.notification-counter {
+  position: absolute;
+  top: 0;
+  right: 17px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  border: 1.5px solid white;
+  font-style: Roboto, Arial;
+
+}
