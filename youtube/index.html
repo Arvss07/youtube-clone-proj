@@ -19,32 +19,45 @@
 <body>
   <header class="header-div">
     <div class="left-panel">
-      <img src="../youtube/res/icons/hamburger-menu.svg" alt="hamburger" class="header-panel-icons hamburger-menu">
-      <img src="../youtube/res/icons/youtube-logo.svg" alt="youtube" class="youtube-logo">
+      <button class="hamburger-menu header-button">
+        <img src="../youtube/res/icons/hamburger-menu.svg" alt="Menu" class="header-panel-icons">
+        <span class="tooltip-text">Menu</span>
+      </button>
+      <button class="header-button">
+        <img src="../youtube/res/icons/youtube-logo.svg" alt="YouTube" class="youtube-logo">
+        <span class="tooltip-text">YouTube</span>
+      </button>
     </div>
     <div class="center-panel">
       <input type="text" placeholder="Search" class="search-input">
-      <button class="search-button">
-        <img src="../youtube/res/icons/search.svg" alt="search" class="header-panel-icons">
+      <button class="search-button header-button">
+        <img src="../youtube/res/icons/search.svg" alt="Search" class="header-panel-icons">
+        <span class="tooltip-text">Search</span>
       </button>
-      <button class="voice-search-button">
-        <img src="../youtube/res/icons/voice-search-icon.svg" alt="voice" class="voice-search-icon">
+      <button class="voice-search-button header-button">
+        <img src="../youtube/res/icons/voice-search-icon.svg" alt="Voice Search" class="voice-search-icon">
+        <span class="tooltip-text">Voice Search</span>
       </button>
     </div>
     <div class="right-panel">
-      <button class="upload-button">
-        <img src="../youtube/res/icons/upload.svg" alt="upload" class="upload-icon">
+      <button class="upload-button header-button">
+        <img src="../youtube/res/icons/upload.svg" alt="Upload" class="upload-icon">
+        <span class="tooltip-text">Upload</span>
       </button>
-      <button class="yt-apps-button">
-        <img src="../youtube/res/icons/youtube-apps.svg" alt="apps" class="yt-apps-icon">
+      <button class="yt-apps-button header-button">
+        <img src="../youtube/res/icons/youtube-apps.svg" alt="YouTube Apps" class="yt-apps-icon">
+        <span class="tooltip-text">YouTube Apps</span>
       </button>
+
       <div class="notification-container">
         <button class="notification-button">
           <img src="../youtube/res/icons/notifications.svg" alt="notification" class="notification-icon">
         </button>
         <div class="notification-counter">3</div>
+        <span class="tooltip-text">Notifications</span>
       </div>
-      <img src="../youtube/res/logo/sample-logo.png" alt="logo" class="header-pphoto pphoto">
+      </button>
+      <img src="../youtube/res/logo/sample-logo.png" alt="Profile" class="header-pphoto pphoto header-button">
     </div>
   </header>
 

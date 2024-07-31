@@ -12,6 +12,10 @@
   border-bottom: 1px solid rgb(212, 212, 212);
 }
 
+.header-button {
+  position: relative;
+}
+
 .left-panel,
 .center-panel,
 .right-panel {
@@ -147,6 +151,45 @@
   font-style: Roboto, Arial;
 
 }
+
+.notification-container .tooltip-text,
+.tooltip-text {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: -100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.notification-container .tooltip-text::after,
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: 0px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  rotate: 180deg;
+}
+
+.header-button:hover .tooltip-text,
+.notification-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 @media (max-width: 768px) {
   .header-div {
