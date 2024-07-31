@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>Sample Video Showcase</title>
   <link rel="stylesheet" href="../youtube/styles/general.css">
   <link rel="stylesheet" href="../youtube/styles/header.css">
   <link rel="stylesheet" href="../youtube/styles/nav.css">
@@ -13,17 +12,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
   <header class="header-div">
-    <div class=" left-panel">
+    <div class="left-panel">
       <img src="../youtube/res/icons/hamburger-menu.svg" alt="hamburger" class="header-panel-icons hamburger-menu">
       <img src="../youtube/res/icons/youtube-logo.svg" alt="youtube" class="youtube-logo">
     </div>
-
     <div class="center-panel">
       <input type="text" placeholder="Search" class="search-input">
       <button class="search-button">
@@ -33,7 +31,6 @@
         <img src="../youtube/res/icons/voice-search-icon.svg" alt="voice" class="voice-search-icon">
       </button>
     </div>
-
     <div class="right-panel">
       <button class="upload-button">
         <img src="../youtube/res/icons/upload.svg" alt="upload" class="upload-icon">
@@ -41,9 +38,12 @@
       <button class="yt-apps-button">
         <img src="../youtube/res/icons/youtube-apps.svg" alt="apps" class="yt-apps-icon">
       </button>
-      <button class="notification-button">
-        <img src="../youtube/res/icons/notifications.svg" alt="notification" class="notification-icon">
-      </button>
+      <div class="notification-container">
+        <button class="notification-button">
+          <img src="../youtube/res/icons/notifications.svg" alt="notification" class="notification-icon">
+        </button>
+        <div class="notification-counter">3</div>
+      </div>
       <img src="../youtube/res/logo/sample-logo.png" alt="logo" class="header-pphoto pphoto">
     </div>
   </header>
@@ -79,15 +79,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample2.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">08:45</div>
       </div>
       <div class="outer ytt-bottom-div">
         <div class="ytt-logo-div">
           <img src="../youtube/res/logo/sample-logo.png" alt="logo" class="pphoto">
         </div>
         <div class="ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+          <p class="ytt-title">Exploring the Cosmos: A Journey Beyond</p>
+          <p class="ytt-creator">Nova Starfield</p>
+          <p class="ytt-views-pub">1.2M views &#183; 2 days ago</p>
         </div>
       </div>
     </div>
@@ -95,18 +96,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample9.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">18:25</div>
       </div>
-
       <div class="outer ytt-bottom-div">
-
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample8.jpg" alt="logo" class="pphoto">
         </div>
-
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">Cooking with Fire: Ancient Recipes Reimagined</p>
+          <p class="ytt-creator">Culinary Flame</p>
+          <p class="ytt-views-pub">3.5M views &#183; 1 week ago</p>
         </div>
       </div>
     </div>
@@ -114,15 +113,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample2.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">1:08:45</div>
       </div>
       <div class="outer ytt-bottom-div">
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/logo/sample-logo.png" alt="logo" class="pphoto">
         </div>
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">The Art of Minimalism: Less is More</p>
+          <p class="ytt-creator">Zen Craft</p>
+          <p class="ytt-views-pub">500K views &#183; 3 days ago</p>
         </div>
       </div>
     </div>
@@ -130,15 +130,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample3.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">12:00</div>
       </div>
       <div class="outer ytt-bottom-div">
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample2.jpg" alt="logo" class="pphoto">
         </div>
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">Eco Warriors: Saving the Planet, One Step at a Time</p>
+          <p class="ytt-creator">Green Globe</p>
+          <p class="ytt-views-pub">2.8M views &#183; 2 weeks ago</p>
         </div>
       </div>
     </div>
@@ -146,15 +147,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample4.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">5:00</div>
       </div>
       <div class="outer ytt-bottom-div">
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample3.jpg" alt="logo" class="pphoto">
         </div>
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">The Quantum Realm: Unveiling the Unseen</p>
+          <p class="ytt-creator">Physics Enthusiast</p>
+          <p class="ytt-views-pub">900K views &#183; 4 days ago</p>
         </div>
       </div>
     </div>
@@ -162,18 +164,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample5.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">3:45</div>
       </div>
-
       <div class="outer ytt-bottom-div">
-
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample4.jpg" alt="logo" class="pphoto">
         </div>
-
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">Adventure Awaits: Exploring Hidden Gems</p>
+          <p class="ytt-creator">Travel Savvy</p>
+          <p class="ytt-views-pub">2.1M views &#183; 1 month ago</p>
         </div>
       </div>
     </div>
@@ -181,18 +181,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample6.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">10:30</div>
       </div>
-
       <div class="outer ytt-bottom-div">
-
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample5.jpg" alt="logo" class="pphoto">
         </div>
-
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">The Future of AI: Innovations and Implications</p>
+          <p class="ytt-creator">Tech Visionary</p>
+          <p class="ytt-views-pub">1.5M views &#183; 1 week ago</p>
         </div>
       </div>
     </div>
@@ -200,18 +198,16 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample7.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">2:15:00</div>
       </div>
-
       <div class="outer ytt-bottom-div">
-
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample6.jpg" alt="logo" class="pphoto">
         </div>
-
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">Mysteries of the Deep: Ocean Exploration</p>
+          <p class="ytt-creator">Marine Explorer</p>
+          <p class="ytt-views-pub">3.3M views &#183; 2 days ago</p>
         </div>
       </div>
     </div>
@@ -219,38 +215,33 @@
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample8.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">1:30:00</div>
       </div>
-
       <div class="outer ytt-bottom-div">
-
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample7.jpg" alt="logo" class="pphoto">
         </div>
-
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">Revolutionary Designs: The Art of Architecture</p>
+          <p class="ytt-creator">Architectural Genius</p>
+          <p class="ytt-views-pub">850K views &#183; 5 days ago</p>
         </div>
       </div>
     </div>
 
-
     <div class="ytt-main-container">
       <div class="outer ytt-top-div">
         <img src="../youtube/res/thumbnails/sample9.jpg" alt="thumbnail1" class="thumbnail-photo">
+        <div class="time-div">1:00:00</div>
       </div>
-
       <div class="outer ytt-bottom-div">
-
-        <div class="inner ytt-logo-div">
+        <div class="ytt-logo-div">
           <img src="../youtube/res/thumbnails/sample8.jpg" alt="logo" class="pphoto">
         </div>
-
-        <div class="inner ytt-text-div">
-          <p class="ytt-title">The Quick Brown Fox Jumps Over The Lazy Dog</p>
-          <p class="ytt-creator">Arvy Aggabao</p>
-          <p class="ytt-views-pub">10.0M views &#183; 1 year ago</p>
+        <div class="ytt-text-div">
+          <p class="ytt-title">The Power of Mindfulness: A Journey Within</p>
+          <p class="ytt-creator">Mindful Guru</p>
+          <p class="ytt-views-pub">2.7M views &#183; 3 weeks ago</p>
         </div>
       </div>
     </div>
